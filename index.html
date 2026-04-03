@@ -4,162 +4,69 @@
     <title>Divine Chukwu</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Arial;
             margin: 0;
-            background: #0f172a;
-            color: white;
+            background: #f4f4f4;
         }
-
         header {
-            background: linear-gradient(135deg, #06b6d4, #3b82f6);
-            padding: 40px 20px;
-            text-align: center;
-            color: white;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 40px;
-        }
-
-        header h4 {
-            margin-top: 10px;
-            font-weight: normal;
-            opacity: 0.9;
-        }
-
-        section {
-            margin: 30px;
+            background: #0ff;
+            color: black;
             padding: 20px;
-            background: #1e293b;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+            text-align: center;
         }
-
-        h2 {
-            border-left: 5px solid #06b6d4;
-            padding-left: 10px;
+        section {
+            padding: 20px;
         }
-
-        ul li {
-            margin: 8px 0;
-        }
-
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
         .gallery img {
-            width: 160px;
+            width: 150px;
             margin: 10px;
             border-radius: 10px;
-            transition: transform 0.3s, box-shadow 0.3s;
         }
-
-        .gallery img:hover {
-            transform: scale(1.05);
-            box-shadow: 0 0 15px #06b6d4;
-        }
-
         button {
-            padding: 12px 20px;
-            background: #06b6d4;
-            color: white;
-            border: none;
-            border-radius: 6px;
+            padding: 10px;
+            background: ivory;
+            color: black;
+            text: bold;
+            border: 1px solid;
+            border-radius: 5px;
             cursor: pointer;
-            transition: background 0.3s, transform 0.2s;
         }
-
-        button:hover {
-            background: #3b82f6;
-            transform: scale(1.05);
-        }
-
-        hr {
-            border: none;
-            height: 1px;
-            background: #334155;
-            margin: 30px 0;
-        }
-        html {
-            scroll-behavior: smooth;
-        }
-
-        @media (max-width: 768px) {
-
-        header h1 {
-            font-size: 28px;
-        }
-
-        header h4 {
-            font-size: 16px;
-        }
-
-        section {
-            margin: 15px;
-            padding: 15px;
-        }
-
-        .gallery img {
-            width: 100%;
-            max-width: 300px;
-        }
-
-        ul {
-            padding-left: 20px;
-        }
-
-        button {
-            width: 100%;
-            padding: 14px;
-        }
-}
     </style>
 </head>
 
 <body>
 
-<nav style="position: sticky; top: 0; background: #020617; padding: 10px; text-align: center; z-index: 1000;">
-    <a href="#about" style="color:white; margin:10px;">About</a>
-    <a href="#skills" style="color:white; margin:10px;">Skills</a>
-    <a href="#projects" style="color:white; margin:10px;">Projects</a>
-    <a href="#gallery" style="color:white; margin:10px;">Gallery</a>
-</nav>
-
 <header>
     <h1>Divine Chukwu</h1>
     <h4>Developer in the making</h4>
 </header>
-
-<section id="about">
+<hr />
+<section style="background-color: ivory;">
     <h2>About Me</h2>
-    <p>
-        I am a developer passionate about building web and blockchain applications.
-        I enjoy solving problems and creating systems that have real-world impact.
-    </p>
+    <p>I am a developer passionate about building web and blockchain applications.</p>
 </section>
-
-<section id="skills">
+<hr />
+<section style="background-color: ivory;">
     <h2>Skills</h2>
     <ul>
-        <li>HTML, CSS, JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
         <li>Blockchain Development</li>
         <li>Solidity</li>
         <li>MQL4</li>
-        <li>Full-Stack (Backend-focused)</li>
+        <li>FullStack (Preferably Back-End)</li>
     </ul>
 </section>
 
-<section id="skills">
+<section style="background-color: ivory;">
     <h2>Projects</h2>
-    <p><strong>aimX</strong> — A crypto swap platform allowing users to buy and swap crypto easily.</p>
+    <p>aimX - Crypto swap platform</p>
 </section>
+<hr />
 
-<section id="gallery">
-    <h2>Gallery</h2>
+<section style="background-color: ivory;">
+   <h2 style="color: ivory; background-color: black; padding: 5px; width: 85px; border-radius: 5px;">Gallery</h2>
     <div class="gallery">
         <img src="Divine.jpg" alt="Divine Resting on rails">
         <img src="Divine_up.jpg" alt="Divine Looking up">
@@ -168,9 +75,9 @@
         <img src="People.jpg" alt="Group of people">
     </div>
 </section>
-
+<hr />
 <section>
-    <h2>Click Me</h2>
+    <h2  style="color: ivory; background-color: black; padding: 5px; width: 120px; border-radius: 5px;">Click Me</h2>
     <button onclick="showMessage()">Click Here</button>
 </section>
 
